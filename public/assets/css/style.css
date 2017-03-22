@@ -1,9 +1,17 @@
-body{
-	
+.title, .sub-title {
+	font-family: 'Bevan', cursive;
+	color: #fff;
+}
+.title {
+    font-size: 2.5em;
 }
 
-.title {
-	font-family: 'Bevan', cursive;
+.sub-title {
+    font-size: 1.5em;
+}
+
+.para-title{
+    font-size: 3em;
 }
 
 .parallax {
@@ -22,4 +30,24 @@ body{
 
 .paragraph {
 	font-size: 20pt;
+    margin-bottom: 20px;
 }
+
+.indent {
+    text-indent: 25px;
+}
+
+.title-div {
+	position: relative;
+	top: 20px;
+}
+
+#vinnie-tomato {
+	width: 300px;
+}
+
+/*--Footer Nav --*/
+.navbar-inverse {
+    color: #fff;
+}
+/*-- Footer Nav --*/
