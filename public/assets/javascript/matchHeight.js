@@ -1,0 +1,4 @@
+$(function() {
+    $('.item').matchHeight(false);
+    
+});
