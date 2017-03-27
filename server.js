@@ -33,6 +33,10 @@ app.get('/menu', function(req, res) {
   res.render('menu');
 });
 
+app.get('/apps', function(req, res) {
+  res.render('apps');
+});
+
 app.get('/kitchen', function(req, res) {
   res.render('kitchen');
 });
@@ -41,6 +45,13 @@ app.get('/sandwich', function(req, res) {
   res.render('sandwich');
 });
 
+app.get('/desserts', function(req, res) {
+  res.render('desserts');
+});
+
+app.get('/coupons', function(req, res) {
+  res.render('coupons');
+});
 
 app.listen(port, function() {
     console.log('connected to port ', port);
