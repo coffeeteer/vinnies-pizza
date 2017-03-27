@@ -1,0 +1,27 @@
+{
+  "name": "vinnies-pizza",
+  "version": "1.0.0",
+  "description": "Pizza take out website",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeeteer/vinnies-pizza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coffeeteer/vinnies-pizza/issues"
+  },
+  "homepage": "https://github.com/coffeeteer/vinnies-pizza#readme"
+}
