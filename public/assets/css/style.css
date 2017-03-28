@@ -10,6 +10,30 @@
     font-size: 1.5em;
 }
 
+.brand-img {
+    width: 50px;
+}
+
+/*All the container divs*/
+.container {
+    background-color: #EEEAC7;
+}
+
+/*item div used for the div sizing*/
+.item {
+    padding-left: 5px;
+}
+
+/*Kitchen and Cluck U PAge*/
+.thermometer {
+    width: 200px;
+}
+
+.cluck-u-mascot {
+    width: 200px;
+}
+/*------------*/
+
 .para-title{
     font-size: 3em;
 }
