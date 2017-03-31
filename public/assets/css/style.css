@@ -19,6 +19,13 @@ body{
 /*.brand-img {
     width: 50px;
 }*/
+/*--- Dot Leaders ----*/
+.items:after {
+    white-space: nowrap;
+    content: 
+    "------"
+    ;
+}
 
 .vinnies-brand {
     font-size: 5pt;
