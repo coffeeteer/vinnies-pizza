@@ -1,4 +1,9 @@
 /* Index Page */
+body{
+    font-family: 'Bevan', cursive;
+    padding-top: 70px;
+}
+
 .title, .sub-title {
 	font-family: 'Bevan', cursive;
 	color: #fff;
@@ -11,8 +16,19 @@
     font-size: 1.5em;
 }
 
-.brand-img {
+/*.brand-img {
     width: 50px;
+}*/
+
+.vinnies-brand {
+    font-size: 5pt;
+    padding: 0 0 0 6px;
+}
+
+.brand-text {
+    font-size: 5pt;
+    color: #fff;
+    line-height: 10px;
 }
 
 .frnt-pg-grp-img {
