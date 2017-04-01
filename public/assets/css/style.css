@@ -21,7 +21,30 @@ body {
 }*/
 /*--- Dot Leaders ----*/
 
+ /*.article {
+   display: flex;
+ }*/
+/*.article .item,
+ .article .price {
+   flex: 1 0 auto;
+ }*/
+ /*.article .dots {
+   flex: 0 1 auto;
+ }*/
+ .dots::after {
+   display: inline-block;
+   white-space: nowrap;
+   overflow: hidden;
+   /*text-overflow: clip;*/
+   content: 
+    " . . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+ }
+
 /*-------Dot Leaders End-------*/
+
 .vinnies-brand {
     font-size: 5pt;
     padding: 0 0 0 6px;
