@@ -1,5 +1,5 @@
 /* Index Page */
-body{
+body {
     font-family: 'Bevan', cursive;
     padding-top: 70px;
 }
@@ -20,13 +20,8 @@ body{
     width: 50px;
 }*/
 /*--- Dot Leaders ----*/
-.items:after {
-    white-space: nowrap;
-    content: 
-    "------"
-    ;
-}
 
+/*-------Dot Leaders End-------*/
 .vinnies-brand {
     font-size: 5pt;
     padding: 0 0 0 6px;
