@@ -31,17 +31,17 @@ body {
  /*.article .dots {
    flex: 0 1 auto;
  }*/
- .dots::after {
-   display: inline-block;
+.dots::after {
+   display: inline-flex;
    white-space: nowrap;
    overflow: hidden;
-   /*text-overflow: clip;*/
+   text-overflow: clip;
    content: 
     " . . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
- }
+}
 
 /*-------Dot Leaders End-------*/
 
