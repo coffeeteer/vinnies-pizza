@@ -31,16 +31,33 @@ body {
  /*.article .dots {
    flex: 0 1 auto;
  }*/
+
+/*.dots {
+    display: flex;
+}
+
 .dots::after {
    display: inline-flex;
    white-space: nowrap;
    overflow: hidden;
    text-overflow: clip;
+   direction: rtl;
    content: 
     " . . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
     ". . . . . . . . . . . . . . . . . . . . "
+}*/
+
+.dots {
+  display: flex;
+}
+
+.dots::after {
+  white-space: nowrap;
+  overflow: hidden;
+  direction: rtl;
+  content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
 }
 
 /*-------Dot Leaders End-------*/
