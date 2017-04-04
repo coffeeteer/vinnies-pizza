@@ -49,12 +49,23 @@ body {
     ". . . . . . . . . . . . . . . . . . . . "
 }*/
 
+.article {
+    width: 100%;
+}
+
 .dots {
   display: flex;
+  align-items: baseline;
+}
+
+.dots > * {
+  padding: 0;
+  margin: 0;
 }
 
 .dots::after {
   white-space: nowrap;
+  flex: 1;   
   overflow: hidden;
   direction: rtl;
   content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
