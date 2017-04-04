@@ -21,41 +21,13 @@ body {
 }*/
 /*--- Dot Leaders ----*/
 
- /*.article {
-   display: flex;
- }*/
-/*.article .item,
- .article .price {
-   flex: 1 0 auto;
- }*/
- /*.article .dots {
-   flex: 0 1 auto;
- }*/
-
-/*.dots {
-    display: flex;
-}
-
-.dots::after {
-   display: inline-flex;
-   white-space: nowrap;
-   overflow: hidden;
-   text-overflow: clip;
-   direction: rtl;
-   content: 
-    " . . . . . . . . . . . . . . . . . . . . "
-    ". . . . . . . . . . . . . . . . . . . . "
-    ". . . . . . . . . . . . . . . . . . . . "
-    ". . . . . . . . . . . . . . . . . . . . "
-}*/
-
 .article {
     width: 100%;
 }
 
 .dots {
   display: flex;
-  align-items: baseline;
+  /*align-items: baseline;*/
 }
 
 .dots > * {
@@ -69,6 +41,7 @@ body {
   overflow: hidden;
   direction: rtl;
   content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ."
+  /*content: "• • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •";*/
 }
 
 /*-------Dot Leaders End-------*/
