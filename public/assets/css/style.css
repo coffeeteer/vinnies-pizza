@@ -139,3 +139,7 @@ body {
     /*font-size: 0.8rem;*/
 }
 /*---------------------*/
+
+.area {
+    border-bottom: thick solid #000;
+}
