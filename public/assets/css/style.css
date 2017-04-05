@@ -126,3 +126,16 @@ body {
     color: #fff;
 }
 /*-- Footer Nav --*/
+
+/*----- ephasism ------*/
+.small {
+    position: relative;
+    bottom: -3.5px;
+    /*left: 3px;*/
+    white-space: normal;
+}
+
+.size-title {
+    /*font-size: 0.8rem;*/
+}
+/*---------------------*/
