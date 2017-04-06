@@ -4,14 +4,14 @@
 }
 
 @media screen and (min-width : 768px) and (max-width : 1024px) {
-	.container {
+	.item {
 		font-size: 0.8rem;
 	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-width : 200px) and (max-width : 480px) {
-	.container {
+	.item {
 		font-size: 0.6rem;
 	}
 }
