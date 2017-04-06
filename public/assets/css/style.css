@@ -139,8 +139,11 @@ body {
     /*font-size: 0.8rem;*/
 }
 /*---------------------*/
-
+/*-Styling borders to separate menu sections-*/
 .area {
-    border-bottom: 1px solid #000;
+    border-bottom: 5px solid #000;
+    border-bottom-style: inset;
     margin: 0 auto;
 }
+
+/*----------border end----------*/
