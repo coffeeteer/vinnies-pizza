@@ -7,4 +7,6 @@ $(function() {
       $('nav li a').filter(function(){
           return this.href == url;
       }).parent().addClass('active');
+
+      //Making description disappear on small screens
 });

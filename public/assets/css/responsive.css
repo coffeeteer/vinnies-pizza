@@ -1,0 +1,17 @@
+/* Desktops and laptops ----------- */
+@media screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+	.container {
+		font-size: 0.8rem;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (min-width : 200px) and (max-width : 480px) {
+	.container {
+		font-size: 0.6rem;
+	}
+}
