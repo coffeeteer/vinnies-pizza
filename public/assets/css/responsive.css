@@ -5,13 +5,31 @@
 
 @media screen and (min-width : 768px) and (max-width : 1024px) {
 	.item {
-		font-size: 0.8rem;
+		/*font-size: 0.8rem;*/
+		font-size: 10pt;
+	}
+
+	.titles {
+		font-size: 15pt;
+	}
+
+	.nav-anchor {
+		font-size: 8pt;
 	}
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-width : 200px) and (max-width : 480px) {
 	.item {
-		font-size: 0.6rem;
+		/*font-size: 0.6rem;*/
+		font-size: 5pt;
+	}
+
+	.titles {
+		font-size: 7pt;
+	}
+
+	.nav-anchor {
+		font-size: 10pt;
 	}
 }
