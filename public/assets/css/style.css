@@ -2,6 +2,7 @@
 body {
     font-family: 'Bevan', cursive;
     padding-top: 70px;
+    overflow-x: hidden; 
 }
 
 .title, .sub-title {
@@ -74,10 +75,14 @@ body {
 /*Kitchen and Cluck U PAge*/
 .thermometer {
     width: 200px;
+    max-width: 99%;
+    max-height: 99%;
 }
 
 .cluck-u-mascot {
     width: 200px;
+    max-width: 99%;
+    max-height: 99%;
 }
 /*------------*/
 
