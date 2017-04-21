@@ -53,6 +53,11 @@ app.get('/coupons', function(req, res) {
   res.render('coupons');
 });
 
+app.get('/menu2', function(req, res) {
+  res.render('menu2');
+});
+
 app.listen(port, function() {
     console.log('connected to port ', port);
 });
+
