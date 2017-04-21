@@ -1,5 +1,11 @@
 $(function() {
-    $('.item').matchHeight(false);
+    $('.item').matchHeight({
+    	byRow: false,
+    	property:'min-height',
+    	// target: $('p')
+    });
+
+    
     
     //Make links '.active' in Handlebars
     var url = window.location.href;
@@ -11,7 +17,6 @@ $(function() {
       function windowSize() {
 		  windowHeight = window.innerHeight ? window.innerHeight : $(window).height();
 		  windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
-
 		}
 
 		//Init Function of init it wherever you like...
